@@ -28,9 +28,10 @@ export const Hero = () => {
 
           {/* Headline with flag overlay */}
           <div className="relative">
-            <div
-              className="absolute inset-0 -inset-x-8 -inset-y-4 bg-contain bg-center bg-no-repeat opacity-[0.08] pointer-events-none"
-              style={{ backgroundImage: `url(${flagOverlay})` }}
+            <img
+              src={flagOverlay}
+              alt=""
+              className="absolute -top-4 -left-8 -right-8 -bottom-4 w-[calc(100%+4rem)] h-[calc(100%+2rem)] object-cover opacity-[0.12] pointer-events-none"
             />
             <h1 className="relative opacity-0 animate-fade-up animation-delay-150">
               <span className="text-5xl lg:text-8xl font-bold tracking-wider text-foreground leading-none md:text-6xl font-sans">
