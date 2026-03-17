@@ -211,7 +211,6 @@ export const Navigation = () => {
                 <Phone className="w-4 h-4" />
                 (704) 751-8541
               </a>
-              </a>
               <Button variant="default" className="w-full" asChild>
                 <Link to="/contact" onClick={() => setIsOpen(false)}>
                   Get Free Quote
